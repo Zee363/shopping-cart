@@ -83,4 +83,7 @@ function proceedToCheckout() {
 
 
 
-document.addEventListener('DOMContentLoaded', displayCart);
+document.addEventListener('DOMContentLoaded', () => {
+  
+displayCart();                      
+)};
