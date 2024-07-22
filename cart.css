@@ -1,4 +1,4 @@
-h2, h4, h5, h6 {
+h2, h4, h5, h6, .checked-buttons {
   font-family: 'Montserrat', sans-serif;
   font-style: thin;
   font-weight: 300;
@@ -11,4 +11,14 @@ color: #C738BD;
 
 a:checked {
   color: #BEADFA;
+}
+
+.checked-buttons {
+  margin-bottom: 20px;
+}
+
+.remove-button {
+  background-color: #7BD3EA;
+  border: 1px solid #7BD3EA;
+  border-radius: 3px;
 }

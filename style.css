@@ -53,3 +53,9 @@ a:checked {
   background-color: #C738BD;
   color: white;
 }
+
+.remove-button {
+  background-color: #7BD3EA;
+  border: 1px solid #7BD3EA;
+  border-radius: 3px;
+}
