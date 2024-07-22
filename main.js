@@ -23,7 +23,7 @@ function addToCart(id, name, price, image) {
   
   localStorage.setItem('cart', JSON.stringify(cart));
   console.log('Cart updated:', cart);
-  alert(`${name} has been added to your cart.`);
+  alert(`${name} HAS BEEN ADDED TO THE CART.`);
 }
 
 
@@ -76,6 +76,9 @@ function displayCart() {
   });
 }
 
+function proceedToCheckout() {
+  alert('THANK YOU FOR YOUR PURCHASE!');
+}
 
 
 
